@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="ua.com.testdm" version="3.6.17" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Market">
+        <param name="android-package" value="com.xmartlabs.cordova.market.Market" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="AppVersion">
+        <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion" />
+    </feature>
+    <feature name="Share">
+        <param name="android-package" value="nl.madebymark.share.Share" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="BackgroundMode">
+        <param name="android-package" value="de.appplant.cordova.plugin.background.BackgroundMode" />
+    </feature>
+    <feature name="BackgroundModeExt">
+        <param name="android-package" value="de.appplant.cordova.plugin.background.BackgroundModeExt" />
+    </feature>
+    <feature name="Insomnia">
+        <param name="android-package" value="nl.xservices.plugins.Insomnia" />
+    </feature>
+    <feature name="SpeechRecognition">
+        <param name="android-package" value="org.apache.cordova.speech.SpeechRecognition" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="ThemeDetection">
+        <param name="android-package" value="de.mariusbackes.cordova.plugin.ThemeDetection" />
+    </feature>
+    <feature name="AppReview">
+        <param name="android-package" value="by.chemerisuk.cordova.AppReviewPlugin" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="AppMinimize">
+        <param name="android-package" value="tomloprod.AppMinimize" />
+    </feature>
+    <feature name="InAppBillingV6">
+        <param name="android-package" value="com.alexdisler.inapppurchases.InAppBillingV6" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" onload="true" value="org.apache.cordova.labs.keyboard.Keyboard" />
+    </feature>
+    <feature name="DecryptResource">
+        <param name="android-package" value="com.tkyaji.cordova.DecryptResource" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="TTS">
+        <param name="android-package" value="com.wordsbaking.cordova.tts.TTS" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Тест з держмови</name>
+    <description>Тест з державної мови - навчання та пробне тестування</description>
+    <author email="support@dilogical.com" href="https://dilogical.com">DILOGICAL</author>
+    <content src="/+++/index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <resource-file src="res/android/mipmap-anydpi-v26/icon.xml" target="app/src/main/res/mipmap-anydpi-v26/icon.xml" />
+    <resource-file src="res/android/mipmap-anydpi-v26/icon_round.xml" target="app/src/main/res/mipmap-anydpi-v26/icon_round.xml" />
+    <resource-file src="res/android/mipmap-ldpi/icon.png" target="app/src/main/res/mipmap-ldpi/icon.png" />
+    <resource-file src="res/android/mipmap-ldpi/icon_round.png" target="app/src/main/res/mipmap-ldpi/icon_round.png" />
+    <resource-file src="res/android/mipmap-ldpi/icon_foreground.png" target="app/src/main/res/mipmap-ldpi/icon_foreground.png" />
+    <resource-file src="res/android/mipmap-ldpi/icon_background.png" target="app/src/main/res/mipmap-ldpi/icon_background.png" />
+    <resource-file src="res/android/mipmap-mdpi/icon.png" target="app/src/main/res/mipmap-mdpi/icon.png" />
+    <resource-file src="res/android/mipmap-mdpi/icon_round.png" target="app/src/main/res/mipmap-mdpi/icon_round.png" />
+    <resource-file src="res/android/mipmap-mdpi/icon_foreground.png" target="app/src/main/res/mipmap-mdpi/icon_foreground.png" />
+    <resource-file src="res/android/mipmap-mdpi/icon_background.png" target="app/src/main/res/mipmap-mdpi/icon_background.png" />
+    <resource-file src="res/android/mipmap-hdpi/icon.png" target="app/src/main/res/mipmap-hdpi/icon.png" />
+    <resource-file src="res/android/mipmap-hdpi/icon_round.png" target="app/src/main/res/mipmap-hdpi/icon_round.png" />
+    <resource-file src="res/android/mipmap-hdpi/icon_foreground.png" target="app/src/main/res/mipmap-hdpi/icon_foreground.png" />
+    <resource-file src="res/android/mipmap-hdpi/icon_background.png" target="app/src/main/res/mipmap-hdpi/icon_background.png" />
+    <resource-file src="res/android/mipmap-xhdpi/icon.png" target="app/src/main/res/mipmap-xhdpi/icon.png" />
+    <resource-file src="res/android/mipmap-xhdpi/icon_round.png" target="app/src/main/res/mipmap-xhdpi/icon_round.png" />
+    <resource-file src="res/android/mipmap-xhdpi/icon_foreground.png" target="app/src/main/res/mipmap-xhdpi/icon_foreground.png" />
+    <resource-file src="res/android/mipmap-xhdpi/icon_background.png" target="app/src/main/res/mipmap-xhdpi/icon_background.png" />
+    <resource-file src="res/android/mipmap-xxhdpi/icon.png" target="app/src/main/res/mipmap-xxhdpi/icon.png" />
+    <resource-file src="res/android/mipmap-xxhdpi/icon_round.png" target="app/src/main/res/mipmap-xxhdpi/icon_round.png" />
+    <resource-file src="res/android/mipmap-xxhdpi/icon_foreground.png" target="app/src/main/res/mipmap-xxhdpi/icon_foreground.png" />
+    <resource-file src="res/android/mipmap-xxhdpi/icon_background.png" target="app/src/main/res/mipmap-xxhdpi/icon_background.png" />
+    <resource-file src="res/android/mipmap-xxxhdpi/icon.png" target="app/src/main/res/mipmap-xxxhdpi/icon.png" />
+    <resource-file src="res/android/mipmap-xxxhdpi/icon_round.png" target="app/src/main/res/mipmap-xxxhdpi/icon_round.png" />
+    <resource-file src="res/android/mipmap-xxxhdpi/icon_foreground.png" target="app/src/main/res/mipmap-xxxhdpi/icon_foreground.png" />
+    <resource-file src="res/android/mipmap-xxxhdpi/icon_background.png" target="app/src/main/res/mipmap-xxxhdpi/icon_background.png" />
+    <splash density="land-ldpi" src="res/android/screen.png" />
+    <splash density="land-mdpi" src="res/android/screen.png" />
+    <splash density="land-hdpi" src="res/android/screen.png" />
+    <splash density="land-xhdpi" src="res/android/screen.png" />
+    <splash density="land-xxhdpi" src="res/android/screen.png" />
+    <splash density="land-xxxhdpi" src="res/android/screen.png" />
+    <splash density="port-ldpi" src="res/android/screen.png" />
+    <splash density="port-mdpi" src="res/android/screen.png" />
+    <splash density="port-hdpi" src="res/android/screen.png" />
+    <splash density="port-xhdpi" src="res/android/screen.png" />
+    <splash density="port-xxhdpi" src="res/android/screen.png" />
+    <splash density="port-xxxhdpi" src="res/android/screen.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="BackgroundColor" value="0x00000000" />
+    <preference name="StatusBarBackgroundColor" value="#ff2196f3" />
+    <preference name="android-targetSdkVersion" value="33" />
+    <preference name="android-minSdkVersion" value="19" />
+</widget>

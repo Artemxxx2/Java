@@ -1,0 +1,53 @@
+package com.google.android.gms.dynamic;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.gms.common.annotation.KeepForSdk;
+
+@KeepForSdk
+public interface LifecycleDelegate {
+  @KeepForSdk
+  void onCreate(@Nullable Bundle paramBundle);
+  
+  @NonNull
+  @KeepForSdk
+  View onCreateView(@NonNull LayoutInflater paramLayoutInflater, @Nullable ViewGroup paramViewGroup, @Nullable Bundle paramBundle);
+  
+  @KeepForSdk
+  void onDestroy();
+  
+  @KeepForSdk
+  void onDestroyView();
+  
+  @KeepForSdk
+  void onInflate(@NonNull Activity paramActivity, @NonNull Bundle paramBundle1, @Nullable Bundle paramBundle2);
+  
+  @KeepForSdk
+  void onLowMemory();
+  
+  @KeepForSdk
+  void onPause();
+  
+  @KeepForSdk
+  void onResume();
+  
+  @KeepForSdk
+  void onSaveInstanceState(@NonNull Bundle paramBundle);
+  
+  @KeepForSdk
+  void onStart();
+  
+  @KeepForSdk
+  void onStop();
+}
+
+
+/* Location:              C:\Users\Root1\Desktop\Stash\output\!\com\google\android\gms\dynamic\LifecycleDelegate.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       1.1.3
+ */

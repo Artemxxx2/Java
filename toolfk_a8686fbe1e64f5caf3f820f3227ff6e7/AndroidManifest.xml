@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="" android:hardwareAccelerated="true" package="ua.com.testdm" platformBuildVersionCode="30617" platformBuildVersionName="3.6.17">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <application android:appComponentFactory="" android:hardwareAccelerated="true" android:icon="@2131230720" android:label="@2131296257" android:roundIcon="@2131230723" android:supportsRtl="true" android:usesCleartextTraffic="true">
+        <activity android:configChanges="0x00000FB4" android:exported="true" android:label="@2131296256" android:launchMode="1" android:name="" android:theme="@16974121" android:windowSoftInputMode="0x00000010">
+            <intent-filter android:label="@2131296259">
+                <action android:name=""/>
+                <category android:name=""/>
+            </intent-filter>
+        </activity>
+        <service android:name=""/>
+        <meta-data android:name="" android:value=""/>
+        <activity android:configChanges="0x000005B0" android:exported="false" android:name="" android:theme="@16973840"/>
+        <meta-data android:name="" android:value="@2131099648"/>
+        <activity android:exported="false" android:name="" android:stateNotNeeded="true" android:theme="@2131361797"/>
+        <meta-data android:name="" android:value="1"/>
+    </application>
+</manifest>

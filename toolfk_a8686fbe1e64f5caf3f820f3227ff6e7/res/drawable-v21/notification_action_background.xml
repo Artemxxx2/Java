@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@2130837506"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@16908334">
+        <inset android:insetLeft="@2130903040" android:insetRight="@2130903040" android:insetTop="@2130903041" android:insetBottom="@2130903041"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <shape android:shape="0">
+                <corners android:radius="@2130903044" />
+                <solid android:color="@17170443" />
+                <padding android:left="@2130903042" android:top="@2130903043" android:right="@2130903042" android:bottom="@2130903043" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

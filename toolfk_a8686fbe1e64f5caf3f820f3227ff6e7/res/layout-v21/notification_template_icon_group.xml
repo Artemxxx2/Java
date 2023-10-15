@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131034167" android:layout_width="@2130903052" android:layout_height="@2130903051"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131034166" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@2130903049" android:layout_marginBottom="@2130903049" android:scaleType="7" android:layout_marginStart="@2130903049" android:layout_marginEnd="@2130903049" />
+    <ImageView android:layout_gravity="0x00800055" android:id="@2131034179" android:visibility="2" android:layout_width="@2130903055" android:layout_height="@2130903055" android:layout_marginBottom="8.0dip" android:scaleType="7" android:layout_marginEnd="8.0dip" />
+</FrameLayout>
